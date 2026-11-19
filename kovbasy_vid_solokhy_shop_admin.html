@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#09090b">
+<meta name="description" content="Крафтові ковбаси та м'ясні делікатеси від Солохи. Каталог, кошик і замовлення через Viber.">
+<title>КОВБАСИ ВІД СОЛОХИ ⚡ CRAFT MEAT DROP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Unbounded:wght@600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#09090b;--card:#141418;--lime:#ccff00;--pink:#ff2a85;--cyan:#00f0ff;--text:#fff;--muted:#a1a1aa;--line:#393941}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background-color:var(--bg);background-image:radial-gradient(#27272a 1px,transparent 1px);background-size:22px 22px;color:var(--text);font-family:Montserrat,Arial,sans-serif;overflow-x:hidden;padding-bottom:100px}
+button,input,textarea{font:inherit}button{cursor:pointer}a{color:inherit}.wrap{max-width:1140px;margin:auto;padding:0 16px}
+h1,h2,h3,.display{font-family:Unbounded,Montserrat,sans-serif;text-transform:uppercase}
+.ticker{background:var(--lime);color:#000;padding:10px 0;font-weight:900;font-size:.8rem;border-bottom:3px solid #fff;white-space:nowrap;overflow:hidden}.ticker-track{display:inline-block;animation:marq 24s linear infinite}@keyframes marq{to{transform:translateX(-50%)}}
+header.hero{padding:30px 0 34px;text-align:center}.logo-link{display:inline-flex;align-items:center;justify-content:center;margin-bottom:18px}.logo-link img{max-width:160px;max-height:100px;object-fit:contain}.top-stickers{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:20px}.stk{padding:6px 14px;font-weight:900;font-size:.75rem;border:2px solid #fff;text-transform:uppercase;box-shadow:3px 3px 0 #fff}.stk-pink{background:var(--pink)}.stk-cyan{background:var(--cyan);color:#000}
+.brand-box{display:inline-block;background:#000;border:4px solid var(--lime);padding:16px 22px;box-shadow:10px 10px 0 var(--pink);margin:0 8px 22px;max-width:calc(100% - 20px)}h1{font-size:clamp(1.15rem,5vw,3.4rem);line-height:1.15;letter-spacing:-.03em;margin:0;text-shadow:3px 3px 0 var(--pink)}h1 span{color:var(--lime)}.sub-line{font-family:Unbounded,sans-serif;font-size:clamp(.75rem,2.6vw,1.35rem);font-weight:900;color:var(--cyan);margin-bottom:16px}.hero p{font-size:.98rem;color:var(--muted);max-width:680px;margin:0 auto 20px;font-weight:600;line-height:1.6}.ring-pill{display:inline-block;background:var(--card);border:2px solid var(--lime);color:var(--lime);padding:8px 16px;font-weight:800;font-size:.82rem;border-radius:99px}
+.sec-head{display:flex;align-items:center;gap:12px;margin:38px 0 20px;flex-wrap:wrap}.sec-head h2{font-size:clamp(1.1rem,3vw,1.65rem);margin:0}.sec-head span{background:var(--pink);padding:4px 10px;border:2px solid #fff;font-size:.7rem;font-weight:900}
+.creator-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;margin-bottom:42px}.p-card{background:var(--card);border:3px solid #fff;padding:12px;box-shadow:6px 6px 0 var(--lime)}.p-card:nth-child(2){box-shadow:6px 6px 0 var(--cyan)}.p-card:nth-child(3){box-shadow:6px 6px 0 var(--pink)}
+.p-slot{height:245px;background:#1f1f23;border:2px dashed #52525b;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden;padding:15px}.p-slot img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}.p-slot.has-image .placeholder{display:none}.placeholder{font-size:2.2rem}.p-slot small{color:var(--muted);margin-top:6px}.up-btn{margin-top:10px;background:var(--lime);color:#000;font-family:Unbounded,sans-serif;font-weight:900;font-size:.65rem;padding:8px 10px;border:2px solid #000;z-index:2;cursor:pointer}.up-btn input{display:none}.p-foot{margin-top:10px;display:flex;justify-content:space-between;gap:8px;align-items:center;font-weight:800;font-size:.78rem}
+.catalog-tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:18px}.tabs{display:flex;gap:9px;flex-wrap:wrap}.tab{background:var(--card);color:#fff;font-family:Unbounded,sans-serif;font-size:.68rem;padding:11px 13px;border:2px solid #fff;box-shadow:3px 3px 0 #3f3f46}.tab.active,.tab:hover{background:var(--lime);color:#000;box-shadow:3px 3px 0 var(--pink)}.search{background:#17171c;border:2px solid #fff;color:#fff;padding:11px 13px;min-width:210px;flex:1;max-width:280px;outline:none}.search:focus{border-color:var(--cyan)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:20px;margin-bottom:45px}.product-card{background:var(--card);border:3px solid #fff;padding:18px;box-shadow:5px 5px 0 #27272a;display:flex;flex-direction:column;min-height:220px;position:relative}.product-card:hover{box-shadow:5px 5px 0 var(--cyan);transform:translateY(-2px)}.tag{align-self:flex-start;background:var(--pink);border:2px solid #fff;padding:3px 8px;font-size:.64rem;font-weight:900;margin-bottom:8px}.product-card h3{font-size:.94rem;line-height:1.4;margin:0 0 8px}.product-card p{color:var(--muted);font-size:.82rem;line-height:1.5;margin:0 0 16px}.product-card .bottom{margin-top:auto;border-top:2px dashed var(--line);padding-top:13px;display:flex;justify-content:space-between;align-items:center;gap:10px}.price{font-family:Unbounded,sans-serif;color:var(--lime);font-size:1rem}.price small{display:block;font:600 .68rem Montserrat,sans-serif;color:var(--muted);margin-top:4px}.add-btn{background:#fff;color:#000;font-weight:900;padding:9px 12px;font-size:.72rem;border:2px solid #000;text-transform:uppercase}.add-btn:hover{background:var(--lime)}.add-btn:disabled{opacity:.4;cursor:not-allowed}.empty{grid-column:1/-1;text-align:center;padding:35px 15px;color:var(--muted);border:2px dashed var(--line)}
+.perks{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:45px}.perk{background:#000;border:2px solid var(--cyan);padding:18px;box-shadow:4px 4px 0 var(--cyan)}.perk strong{display:block;font-family:Unbounded,sans-serif;color:var(--lime);font-size:.78rem;margin-bottom:7px}.perk span{font-size:.82rem;color:var(--muted);line-height:1.5}
+footer{background:#000;border-top:3px solid #fff;padding:38px 16px;text-align:center}footer h2{font-size:1.25rem;margin:0 0 10px}footer p{color:var(--muted);font-size:.85rem;line-height:1.6}.f-btns{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:20px}.btn-mega{display:inline-block;background:var(--lime);color:#000;font-family:Unbounded,sans-serif;font-weight:900;font-size:.75rem;padding:14px 19px;text-decoration:none;border:3px solid #fff;box-shadow:5px 5px 0 var(--pink)}.btn-secondary{background:var(--cyan)}.bar{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);width:min(94%,660px);background:var(--lime);color:#000;border:3px solid #000;box-shadow:5px 5px 0 var(--pink);padding:10px 14px;display:none;justify-content:space-between;align-items:center;gap:10px;z-index:50}.bar.show{display:flex}.bar strong{font-family:Unbounded,sans-serif;font-size:.8rem}.b-btn{background:#000;color:#fff;font-family:Unbounded,sans-serif;font-size:.68rem;padding:10px 12px;border:0}
+.overlay{position:fixed;inset:0;background:#000b;z-index:100;display:none;align-items:flex-end;justify-content:center;padding:12px}.overlay.open{display:flex}.drawer{background:#121216;border:3px solid #fff;box-shadow:7px 7px 0 var(--pink);width:min(100%,700px);max-height:92vh;overflow:auto;padding:20px}.drawer-head{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding-bottom:12px}.drawer-head h2{font-size:1rem;margin:0}.close{background:transparent;color:#fff;border:1px solid #fff;padding:7px 10px}.cart-list{display:grid;gap:12px;padding:16px 0}.cart-row{display:grid;grid-template-columns:1fr auto;gap:8px;border-bottom:1px dashed var(--line);padding-bottom:10px}.cart-row strong{font-size:.85rem}.cart-row small{display:block;color:var(--muted);margin-top:4px}.qty{display:flex;align-items:center;gap:8px}.qty button{background:#fff;color:#000;border:0;width:27px;height:27px;font-weight:900}.qty span{min-width:18px;text-align:center}.total{display:flex;justify-content:space-between;font-family:Unbounded,sans-serif;color:var(--lime);padding:12px 0;border-top:2px solid var(--line)}.checkout-form{display:grid;gap:10px;margin-top:12px}.checkout-form label{font-size:.75rem;font-weight:800}.checkout-form input,.checkout-form textarea{width:100%;margin-top:5px;padding:11px;background:#202027;border:1px solid #555;color:#fff}.checkout-form textarea{min-height:75px;resize:vertical}.checkout-form button{background:var(--lime);color:#000;border:2px solid #fff;padding:13px;font-family:Unbounded,sans-serif;font-weight:900}.note{color:var(--muted);font-size:.72rem;line-height:1.5}.toast{position:fixed;top:15px;left:50%;transform:translateX(-50%);background:var(--cyan);color:#000;padding:10px 16px;font-weight:900;z-index:200;display:none;max-width:90%;text-align:center}.toast.show{display:block}
+
+.admin-launch{position:fixed;right:14px;top:14px;z-index:60;background:#17171c;color:#fff;border:2px solid var(--cyan);padding:9px 12px;font:800 .68rem Unbounded,sans-serif;box-shadow:3px 3px 0 var(--cyan)}
+.admin-launch:hover{background:var(--cyan);color:#000}
+.admin-panel{position:fixed;inset:0;z-index:120;background:#08080af2;display:none;overflow:auto;padding:18px}
+.admin-panel.open{display:block}.admin-inner{max-width:1050px;margin:25px auto;background:#141418;border:3px solid #fff;padding:20px;box-shadow:7px 7px 0 var(--pink)}
+.admin-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:15px}
+.admin-top h2{font-size:1.1rem;margin:0}.admin-actions{display:flex;gap:8px;flex-wrap:wrap}
+.admin-btn{background:var(--lime);color:#000;border:2px solid #fff;padding:9px 12px;font-weight:900;font-size:.72rem}.admin-btn.alt{background:var(--cyan)}.admin-btn.danger{background:var(--pink);color:#fff}
+.admin-help{font-size:.78rem;color:var(--muted);line-height:1.6;margin:15px 0}
+.admin-products{display:grid;gap:10px;margin-top:15px}
+.admin-product{display:grid;grid-template-columns:minmax(150px,1.5fr) minmax(100px,.6fr) minmax(110px,.7fr) minmax(90px,.5fr) auto;gap:8px;align-items:center;padding:10px;background:#202027;border:1px solid #444}
+.admin-product input,.admin-product select{min-width:0;width:100%;padding:9px;background:#101014;color:#fff;border:1px solid #555}
+.admin-product .admin-remove{background:var(--pink);color:#fff;border:0;padding:9px}
+.admin-section{font:800 .8rem Unbounded,sans-serif;color:var(--lime);margin-top:20px}
+.admin-settings{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin-top:12px}
+.admin-settings label{font-size:.72rem;color:var(--muted);font-weight:800}.admin-settings input{display:block;width:100%;margin-top:5px;padding:10px;background:#202027;color:#fff;border:1px solid #555}
+.admin-status{color:var(--cyan);font-size:.75rem;margin-top:12px;min-height:18px}
+@media(max-width:720px){.admin-product{grid-template-columns:1fr 1fr}.admin-product .admin-name{grid-column:1/-1}.admin-product .admin-remove{grid-column:1/-1}.admin-launch{top:auto;bottom:82px}}
+
+@media(max-width:600px){.catalog-tools{align-items:stretch}.tabs{display:grid;grid-template-columns:1fr 1fr}.tab{font-size:.6rem;padding:10px 6px}.search{max-width:none;width:100%}.grid{grid-template-columns:1fr}.bar strong{font-size:.68rem}.b-btn{font-size:.6rem;padding:9px}.brand-box{padding:13px 12px}.sec-head{margin-top:30px}.p-slot{height:220px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="ticker"><div class="ticker-track">⚡ КОВБАСИ ВІД СОЛОХИ • КРАФТОВИЙ ДРОП • ВИТРИМКА 28 ДНІВ • МОЖНА ПО ПІВ КІЛЬЦЯ • VIBER 095 327 58 81 • ⚡ КОВБАСИ ВІД СОЛОХИ • КРАФТОВИЙ ДРОП • ВИТРИМКА 28 ДНІВ • МОЖНА ПО ПІВ КІЛЬЦЯ • VIBER 095 327 58 81 •</div></div>
+
+<header class="hero wrap">
+  <a class="logo-link" href="https://www.tiktok.com/@meat_kolbaska_ua" target="_blank" rel="noopener noreferrer" aria-label="TikTok Ковбаси від Солохи"><img src="logo.png" alt="Емблема Ковбаси від Солохи" onerror="this.style.display='none'"></a>
+  <div class="top-stickers"><div class="stk stk-pink">🔥 TIKTOK VIRAL CRAFT</div><div class="stk stk-cyan">🇺🇦 КИЇВЩИНА • РУЧНА РОБОТА</div></div>
+  <div class="brand-box"><h1>КОВБАСИ ВІД <span>СОЛОХИ</span></h1></div>
+  <div class="sub-line">М'ЯСНИЙ АСОРТИМЕНТ ТА ЦІНИ</div>
+  <p>Забудь про нудну нарізку з маркету. Чесне сиров'ялене та сирокопчене м'ясо від Каріни: максимум начинки та 28 днів витримки.</p>
+  <div class="ring-pill">⚖️ 1 кільце ковбаси ≈ 250–350 грам</div>
+</header>
+
+<main class="wrap">
+  <div class="sec-head"><h2>👩‍🍳 Каріна та свіжий дроп</h2><span>НАШІ ФОТО</span></div>
+  <div class="creator-grid">
+    <div class="p-card"><div class="p-slot" id="p1"><span class="placeholder">🌭</span><small>Фото господарки з в'язкою</small><label class="up-btn">+ Додати фото<input type="file" accept="image/*" data-preview="p1"></label></div><div class="p-foot"><span>Свіжа партія</span><span style="color:var(--lime)">28 ДНІВ</span></div></div>
+    <div class="p-card"><div class="p-slot" id="p2"><span class="placeholder">🍒</span><small>Фото ковбаси у розрізі</small><label class="up-btn">+ Додати фото<input type="file" accept="image/*" data-preview="p2"></label></div><div class="p-foot"><span>Вишня • Фісташка • Журавлина</span><span style="color:var(--cyan)">ТОП</span></div></div>
+    <div class="p-card"><div class="p-slot" id="p3"><span class="placeholder">📦</span><small>Фото готових боксів</small><label class="up-btn">+ Додати фото<input type="file" accept="image/*" data-preview="p3"></label></div><div class="p-foot"><span>Відправка по Україні</span><span style="color:var(--pink)">DROP</span></div></div>
+  </div>
+
+  <div class="sec-head"><h2>🥩 Каталог смаків</h2><span id="count-label">16 ПОЗИЦІЙ</span></div>
+  <div class="catalog-tools">
+    <div class="tabs" role="group" aria-label="Фільтр каталогу">
+      <button class="tab active" data-filter="all">🔥 Усі (16)</button>
+      <button class="tab" data-filter="sv">🥩 Сиров'ялена (10)</button>
+      <button class="tab" data-filter="sk">💨 Сирокопчена (3)</button>
+      <button class="tab" data-filter="mush">🍄 Гриби (3)</button>
+    </div>
+    <input class="search" id="search" type="search" placeholder="Знайти товар…" aria-label="Пошук товарів">
+  </div>
+  <div class="grid" id="catalog" aria-live="polite"></div>
+
+  <div class="perks">
+    <div class="perk"><strong>🔪 МІКС ПО ПІВ КІЛЬЦЯ</strong><span>Не можеш обрати один смак? Уточни можливість міксу з половинок різних видів під час замовлення.</span></div>
+    <div class="perk"><strong>💳 УМОВИ ОПЛАТИ</strong><span>Умови передплати та доставки узгоджуються з продавцем під час підтвердження замовлення.</span></div>
+    <div class="perk"><strong>⏳ ВИТРИМКА</strong><span>Інформація про склад, термін витримки та умови зберігання уточнюється для кожної позиції.</span></div>
+  </div>
+</main>
+
+<footer>
+  <h2>ЗАМОВЛЯЙ СВІЙ М'ЯСНИЙ ДРОП ⚡</h2>
+  <p>Напиши нам у Viber — допоможемо з вибором та підтвердимо наявність.</p>
+  <div class="f-btns">
+    <a class="btn-mega" href="viber://chat?number=%2B380953275881">НАПИСАТИ У VIBER</a>
+    <a class="btn-mega btn-secondary" href="https://www.tiktok.com/@meat_kolbaska_ua" target="_blank" rel="noopener noreferrer">TIKTOK @MEAT_KOLBASKA_UA</a>
+  </div>
+  <p style="margin-top:22px">© <span id="year"></span> Ковбаси від Солохи</p>
+</footer>
+
+<div class="bar" id="cart-bar"><strong id="cart-summary">КОШИК: 0</strong><button class="b-btn" id="open-cart">ПЕРЕГЛЯНУТИ →</button></div>
+<div class="overlay" id="cart-overlay" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+  <section class="drawer">
+    <div class="drawer-head"><h2 id="cart-title">🛒 ВАШЕ ЗАМОВЛЕННЯ</h2><button class="close" id="close-cart" aria-label="Закрити кошик">✕</button></div>
+    <div class="cart-list" id="cart-list"></div>
+    <div class="total"><span>РАЗОМ</span><span id="cart-total">0 ₴</span></div>
+    <form class="checkout-form" id="checkout-form">
+      <label>Ваше ім'я<input name="name" autocomplete="name" required maxlength="60" placeholder="Як до вас звертатися?"></label>
+      <label>Телефон<input name="phone" type="tel" autocomplete="tel" required maxlength="25" placeholder="+380…"></label>
+      <label>Коментар до замовлення<textarea name="comment" maxlength="500" placeholder="Місто, доставка, побажання…"></textarea></label>
+      <button type="submit">НАДІСЛАТИ ЗАМОВЛЕННЯ У VIBER</button>
+      <p class="note">Натискання кнопки відкриє Viber із підготовленим текстом замовлення. Замовлення буде оформлене після того, як ви надішлете повідомлення та продавець підтвердить наявність, ціну й доставку. Ціни в каталозі потрібно заповнити перед запуском.</p>
+    </form>
+  </section>
+</div>
+
+<button class="admin-launch" id="admin-open" type="button">⚙ АДМІН</button>
+<section class="admin-panel" id="admin-panel" aria-label="Панель керування">
+ <div class="admin-inner">
+  <div class="admin-top"><h2>⚙ КЕРУВАННЯ МАГАЗИНОМ</h2><div class="admin-actions">
+   <button class="admin-btn alt" id="admin-export" type="button">ЕКСПОРТ JSON</button>
+   <button class="admin-btn" id="admin-save" type="button">ЗБЕРЕГТИ</button>
+   <button class="admin-btn danger" id="admin-close" type="button">ЗАКРИТИ ✕</button>
+  </div></div>
+  <p class="admin-help">Тут можна змінити назви, категорії, описи та ціни товарів. Зміни зберігаються в цьому браузері на цьому пристрої. Для спільної роботи з різних телефонів/комп'ютерів і приймання замовлень у базу даних потрібен сервер та підключення backend.</p>
+  <div class="admin-section">ТОВАРИ</div>
+  <div class="admin-products" id="admin-products"></div>
+  <div class="admin-actions" style="margin-top:12px"><button class="admin-btn alt" id="admin-add" type="button">+ ДОДАТИ ТОВАР</button><button class="admin-btn danger" id="admin-reset" type="button">СКИНУТИ ДО ПОЧАТКОВОГО СПИСКУ</button></div>
+  <div class="admin-section">КОНТАКТИ ТА НАЛАШТУВАННЯ</div>
+  <div class="admin-settings">
+   <label>Номер телефону / Viber<input id="setting-phone" placeholder="+380..."></label>
+   <label>Посилання TikTok<input id="setting-tiktok" placeholder="https://www.tiktok.com/@..."></label>
+   <label>Назва магазину<input id="setting-title" placeholder="Ковбаси від Солохи"></label>
+  </div>
+  <div class="admin-status" id="admin-status" role="status"></div>
+ </div>
+</section>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/*
+  ВАЖЛИВО ДЛЯ ВЛАСНИКА:
+  Замініть назви та ціни у масиві PRODUCTS нижче на фактичні.
+  Поки ціна дорівнює null, додавання товару в кошик вимкнене.
+  Ціни вказуються у гривнях за одиницю продажу.
+*/
+const DEFAULT_PRODUCTS = [
+  ...Array.from({length:10},(_,i)=>({id:`sv${i+1}`,category:'sv',categoryName:"Сиров'ялена",name:`Сиров'ялена ковбаса ${i+1} — додайте назву`,description:'Додайте короткий опис, склад та вагу товару.',price:null,unit:'за кільце'})),
+  ...Array.from({length:3},(_,i)=>({id:`sk${i+1}`,category:'sk',categoryName:'Сирокопчена',name:`Сирокопчена ковбаса ${i+1} — додайте назву`,description:'Додайте короткий опис, склад та вагу товару.',price:null,unit:'за кільце'})),
+  ...Array.from({length:3},(_,i)=>({id:`mush${i+1}`,category:'mush',categoryName:'Гриби',name:`Гриби ${i+1} — додайте назву`,description:'Додайте короткий опис, склад та вагу товару.',price:null,unit:'за порцію'}))
+];
+function readProducts(){try{const saved=JSON.parse(localStorage.getItem('solokha-products-v1'));return Array.isArray(saved)&&saved.length?saved:DEFAULT_PRODUCTS.map(p=>({...p}))}catch{return DEFAULT_PRODUCTS.map(p=>({...p}))}}
+let PRODUCTS=readProducts();
+let VIBER_NUMBER=localStorage.getItem('solokha-phone-v1')||'+380953275881';
+const CART_KEY = 'solokha-cart-v1';
+let activeFilter='all', cart=loadCart();
+
+function loadCart(){try{return JSON.parse(localStorage.getItem(CART_KEY)||'{}')}catch{return {}}}
+function saveCart(){try{localStorage.setItem(CART_KEY,JSON.stringify(cart))}catch{}}
+function money(n){return new Intl.NumberFormat('uk-UA',{maximumFractionDigits:0}).format(n)+' ₴'}
+function renderCatalog(){
+  const q=document.getElementById('search').value.trim().toLocaleLowerCase('uk');
+  const items=PRODUCTS.filter(p=>(activeFilter==='all'||p.category===activeFilter)&&(`${p.name} ${p.description} ${p.categoryName}`).toLocaleLowerCase('uk').includes(q));
+  document.getElementById('catalog').innerHTML=items.length?items.map(p=>`
+    <article class="product-card">
+      <span class="tag">${p.categoryName}</span>
+      <h3>${escapeHtml(p.name)}</h3>
+      <p>${escapeHtml(p.description)}</p>
+      <div class="bottom"><div class="price">${p.price===null?'ЦІНУ НЕ ВКАЗАНО':money(p.price)}<small>${escapeHtml(p.unit)}</small></div>
+      <button class="add-btn" data-add="${p.id}" ${p.price===null?'disabled title="Спочатку вкажіть фактичну ціну в коді"':''}>ДОДАТИ +</button></div>
+    </article>`).join(''):'<div class="empty">За вашим запитом нічого не знайдено.</div>';
+  document.getElementById('count-label').textContent=`${items.length} ПОЗИЦІЙ`;
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function cartCount(){return Object.values(cart).reduce((a,b)=>a+b,0)}
+function updateCart(){
+  const count=cartCount(),bar=document.getElementById('cart-bar');
+  bar.classList.toggle('show',count>0);
+  document.getElementById('cart-summary').textContent=`КОШИК: ${count} ${count===1?'ТОВАР':count<5?'ТОВАРИ':'ТОВАРІВ'}`;
+  const valid=PRODUCTS.filter(p=>cart[p.id]&&p.price!==null);
+  const total=valid.reduce((s,p)=>s+p.price*cart[p.id],0);
+  document.getElementById('cart-total').textContent=money(total);
+  const list=document.getElementById('cart-list');
+  list.innerHTML=valid.length?valid.map(p=>`<div class="cart-row"><div><strong>${escapeHtml(p.name)}</strong><small>${money(p.price)} × ${cart[p.id]} = ${money(p.price*cart[p.id])}</small></div><div class="qty"><button type="button" data-qty="-1" data-id="${p.id}" aria-label="Зменшити кількість">−</button><span>${cart[p.id]}</span><button type="button" data-qty="1" data-id="${p.id}" aria-label="Збільшити кількість">+</button></div></div>`).join(''):'<p class="note">Кошик порожній. Додайте товари з каталогу після внесення їхніх фактичних цін.</p>';
+  saveCart();
+}
+function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.classList.remove('show'),2600)}
+function openCart(){document.getElementById('cart-overlay').classList.add('open');document.body.style.overflow='hidden'}
+function closeCart(){document.getElementById('cart-overlay').classList.remove('open');document.body.style.overflow=''}
+document.querySelector('.tabs').addEventListener('click',e=>{const b=e.target.closest('[data-filter]');if(!b)return;activeFilter=b.dataset.filter;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));renderCatalog()});
+document.getElementById('search').addEventListener('input',renderCatalog);
+document.getElementById('catalog').addEventListener('click',e=>{const b=e.target.closest('[data-add]');if(!b)return;const p=PRODUCTS.find(x=>x.id===b.dataset.add);if(!p||p.price===null)return;cart[p.id]=(cart[p.id]||0)+1;updateCart();toast('Додано до кошика: '+p.name)});
+document.getElementById('cart-list').addEventListener('click',e=>{const b=e.target.closest('[data-qty]');if(!b)return;const id=b.dataset.id;cart[id]=(cart[id]||0)+Number(b.dataset.qty);if(cart[id]<=0)delete cart[id];updateCart()});
+document.getElementById('open-cart').addEventListener('click',openCart);
+document.getElementById('close-cart').addEventListener('click',closeCart);
+document.getElementById('cart-overlay').addEventListener('click',e=>{if(e.target.id==='cart-overlay')closeCart()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeCart()});
+document.querySelectorAll('[data-preview]').forEach(input=>input.addEventListener('change',()=>{
+  const file=input.files&&input.files[0];if(!file)return;
+  if(!file.type.startsWith('image/')){toast('Оберіть файл зображення');return}
+  if(file.size>8*1024*1024){toast('Фото має бути не більше 8 МБ');input.value='';return}
+  const reader=new FileReader();reader.onload=()=>{const slot=document.getElementById(input.dataset.preview);let img=slot.querySelector('img');if(!img){img=document.createElement('img');img.alt='Завантажене фото';slot.prepend(img)}img.src=reader.result;slot.classList.add('has-image')};reader.readAsDataURL(file);
+}));
+document.getElementById('checkout-form').addEventListener('submit',async e=>{
+  e.preventDefault();
+  const items=PRODUCTS.filter(p=>cart[p.id]&&p.price!==null);
+  if(!items.length){toast('Кошик порожній або ціни ще не заповнені');return}
+  const fd=new FormData(e.currentTarget),name=String(fd.get('name')).trim(),phone=String(fd.get('phone')).trim(),comment=String(fd.get('comment')).trim();
+  const lines=items.map(p=>`• ${p.name} — ${cart[p.id]} × ${money(p.price)} = ${money(p.price*cart[p.id])}`);
+  const total=items.reduce((s,p)=>s+p.price*cart[p.id],0);
+  const message=`Доброго дня! Хочу оформити замовлення «Ковбаси від Солохи».\n\n${lines.join('\n')}\n\nРазом: ${money(total)}\nІм'я: ${name}\nТелефон: ${phone}\nКоментар: ${comment||'—'}\n\nПрошу підтвердити наявність, вагу та доставку.`;
+  // Copy the complete order and open the seller's Viber chat. Paste the text into the chat.
+  try {
+    await navigator.clipboard.writeText(message);
+    toast('Замовлення скопійовано. Відкриваємо Viber — вставте текст у чат.');
+    window.location.href=`viber://chat?number=${encodeURIComponent(VIBER_NUMBER)}`;
+  } catch {
+    // Fallback: Viber opens its share sheet with the order text; choose the seller's chat.
+    window.location.href=`viber://forward?text=${encodeURIComponent(message)}`;
+  }
+});
+
+function persistProducts(){try{localStorage.setItem('solokha-products-v1',JSON.stringify(PRODUCTS));return true}catch{return false}}
+function adminRender(){
+ const host=document.getElementById('admin-products');
+ host.innerHTML=PRODUCTS.map((p,i)=>`<div class="admin-product" data-admin-index="${i}">
+  <input class="admin-name" data-field="name" aria-label="Назва товару" value="${escapeHtml(p.name)}" placeholder="Назва">
+  <select data-field="category" aria-label="Категорія"><option value="sv" ${p.category==='sv'?'selected':''}>Сиров'ялена</option><option value="sk" ${p.category==='sk'?'selected':''}>Сирокопчена</option><option value="mush" ${p.category==='mush'?'selected':''}>Гриби</option></select>
+  <input data-field="price" type="number" min="0" step="1" aria-label="Ціна в гривнях" value="${p.price===null?'':p.price}" placeholder="Ціна ₴">
+  <input data-field="unit" aria-label="Одиниця продажу" value="${escapeHtml(p.unit||'за шт.')}" placeholder="за кільце">
+  <button type="button" class="admin-remove" data-remove="${i}" aria-label="Видалити товар">✕</button>
+  <input data-field="description" style="grid-column:1/-1" aria-label="Опис товару" value="${escapeHtml(p.description||'')}" placeholder="Опис товару">
+ </div>`).join('');
+ document.getElementById('setting-phone').value=VIBER_NUMBER;
+ document.getElementById('setting-tiktok').value=localStorage.getItem('solokha-tiktok-v1')||'https://www.tiktok.com/@meat_kolbaska_ua';
+ document.getElementById('setting-title').value=localStorage.getItem('solokha-title-v1')||'Ковбаси від Солохи';
+}
+function adminSave(){
+ const rows=[...document.querySelectorAll('.admin-product')];
+ rows.forEach(row=>{const i=Number(row.dataset.adminIndex),p=PRODUCTS[i];if(!p)return;
+  row.querySelectorAll('[data-field]').forEach(el=>{const f=el.dataset.field;if(f==='price')p.price=el.value.trim()===''?null:Number(el.value);else p[f]=el.value.trim()});
+  p.categoryName=p.category==='sv'?"Сиров'ялена":p.category==='sk'?'Сирокопчена':'Гриби';
+ });
+ const phone=document.getElementById('setting-phone').value.trim();
+ if(phone)VIBER_NUMBER=phone;
+ try{localStorage.setItem('solokha-phone-v1',VIBER_NUMBER);localStorage.setItem('solokha-tiktok-v1',document.getElementById('setting-tiktok').value.trim());localStorage.setItem('solokha-title-v1',document.getElementById('setting-title').value.trim())}catch{}
+ const ok=persistProducts();
+ document.getElementById('admin-status').textContent=ok?'Збережено в цьому браузері. Каталог оновлено.':'Не вдалося зберегти: можливо, сховище браузера заповнене.';
+ renderCatalog();updateCart();
+const savedTikTok=localStorage.getItem('solokha-tiktok-v1');if(savedTikTok){const t=document.querySelector('footer .btn-secondary');if(t)t.href=savedTikTok;}
+}
+document.getElementById('admin-open').addEventListener('click',()=>{adminRender();document.getElementById('admin-panel').classList.add('open');document.body.style.overflow='hidden'});
+document.getElementById('admin-close').addEventListener('click',()=>{document.getElementById('admin-panel').classList.remove('open');document.body.style.overflow=''});
+document.getElementById('admin-save').addEventListener('click',adminSave);
+document.getElementById('admin-products').addEventListener('click',e=>{const b=e.target.closest('[data-remove]');if(!b)return;PRODUCTS.splice(Number(b.dataset.remove),1);adminRender()});
+document.getElementById('admin-add').addEventListener('click',()=>{PRODUCTS.push({id:'item'+Date.now(),category:'sv',categoryName:"Сиров'ялена",name:'Новий товар — введіть назву',description:'',price:null,unit:'за шт.'});adminRender()});
+document.getElementById('admin-reset').addEventListener('click',()=>{if(!confirm('Повернути початкові 16 шаблонних позицій? Поточний каталог буде замінено.'))return;PRODUCTS=DEFAULT_PRODUCTS.map(p=>({...p}));adminRender();adminSave()});
+document.getElementById('admin-export').addEventListener('click',()=>{adminSave();const blob=new Blob([JSON.stringify({products:PRODUCTS,phone:VIBER_NUMBER,tiktok:localStorage.getItem('solokha-tiktok-v1')||'',title:localStorage.getItem('solokha-title-v1')||''},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='solokha-catalog.json';a.click();URL.revokeObjectURL(a.href)});
+
+document.getElementById('year').textContent=new Date().getFullYear();
+renderCatalog();updateCart();
+const savedTikTok=localStorage.getItem('solokha-tiktok-v1');if(savedTikTok){const t=document.querySelector('footer .btn-secondary');if(t)t.href=savedTikTok;}
+</script>
+</body>
+</html>
