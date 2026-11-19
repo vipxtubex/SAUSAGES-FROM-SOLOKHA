@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>КОВБАСИ ВІД СОЛОХИ ⚡ CRAFT MEAT DROP</title>
+<link rel="preconnect" href="https://googleapis.com">
+<link rel="preconnect" href="https://gstatic.com" crossorigin>
+<link href="https://googleapis.com/css2?family=Montserrat:wght@600;800;900&family=Unbounded:wght@800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#09090b;--card:#141418;--lime:#ccff00;--pink:#ff2a85;--cyan:#00f0ff;--text:#ffffff;--muted:#a1a1aa;--border:3px solid #ffffff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background-color:var(--bg);background-image:radial-gradient(#27272a 1px,transparent 1px);background-size:22px 22px;color:var(--text);font-family:'Montserrat',sans-serif;overflow-x:hidden;padding-bottom:100px}
+h1,h2,h3,.disp{font-family:'Unbounded',sans-serif;text-transform:uppercase}
+.ticker{background:var(--lime);color:#000;padding:10px 0;font-weight:900;font-size:.82rem;border-bottom:var(--border);white-space:nowrap;overflow:hidden}
+.ticker-track{display:inline-block;animation:marq 20s linear infinite}
+@keyframes marq{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.wrap{max-width:1140px;margin:0 auto;padding:0 16px}
+header{padding:45px 0 35px;text-align:center;position:relative}
+.top-stickers{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.stk{padding:6px 14px;font-weight:900;font-size:.78rem;border:2px solid #fff;text-transform:uppercase;box-shadow:3px 3px 0 #fff}
+.stk-pink{background:var(--pink);color:#fff;transform:rotate(-2deg)}
+.stk-cyan{background:var(--cyan);color:#000;transform:rotate(2deg)}
+.brand-box{display:inline-block;background:#000;border:4px solid var(--lime);padding:16px 22px;box-shadow:10px 10px 0 var(--pink);margin-bottom:22px;max-width:100%}
+header h1{font-size:clamp(1.18rem,4.7vw,3.5rem);line-height:1.1;white-space:nowrap;letter-spacing:-0.02em;color:#fff;text-shadow:3px 3px 0 var(--pink)}
+header h1 span{color:var(--lime)}
+.sub-line{font-family:'Unbounded',sans-serif;font-size:clamp(.88rem,2.4vw,1.5rem);font-weight:900;color:var(--cyan);white-space:nowrap;margin-bottom:16px;letter-spacing:.04em}
+header p{font-size:1rem;color:var(--muted);max-width:600px;margin:0 auto 20px;font-weight:600}
+.ring-pill{display:inline-block;background:var(--card);border:2px solid var(--lime);color:var(--lime);padding:8px 16px;font-weight:800;font-size:.85rem;border-radius:99px}
+.sec-head{display:flex;align-items:center;gap:12px;margin:40px 0 22px}
+.sec-head h2{font-size:clamp(1.2rem,3vw,1.75rem);color:#fff}
+.sec-head span{background:var(--pink);color:#fff;font-size:.75rem;font-weight:900;padding:4px 10px;border:2px solid #fff}
+.creator-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-bottom:45px}
+.p-card{background:var(--card);border:var(--border);padding:12px;box-shadow:6px 6px 0 var(--lime);transition:.2s}
+.p-card:nth-child(2){box-shadow:6px 6px 0 var(--cyan)}
+.p-card:nth-child(3){box-shadow:6px 6px 0 var(--pink)}
+.p-card:hover{transform:translate(-3px,-3px)}
+.p-slot{width:100%;height:250px;background:#1f1f23;border:2px dashed #52525b;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden;padding:15px}
+.p-slot img{width:100%;height:100%;object-fit:cover;position:absolute;top:0;left:0}
+.up-btn{margin-top:10px;background:var(--lime);color:#000;font-family:'Unbounded',sans-serif;font-weight:900;font-size:.7rem;padding:8px 12px;border:2px solid #000;cursor:pointer;z-index:2}
+.p-foot{margin-top:10px;display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:.85rem}
+.tabs{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+.tab{background:var(--card);color:#fff;font-family:'Unbounded',sans-serif;font-size:.78rem;padding:12px 16px;border:2px solid #fff;cursor:pointer;box-shadow:4px 4px 0 #3f3f46;transition:.15s}
+.tab.active,.tab:hover{background:var(--lime);color:#000;box-shadow:4px 4px 0 var(--pink);transform:translate(-2px,-2px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px;margin-bottom:50px}
+.card{background:var(--card);border:var(--border);padding:22px;box-shadow:6px 6px 0 #27272a;display:flex;flex-direction:column;justify-content:space-between;position:relative;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:6px 6px 0 var(--cyan)}
+.card.hidden{display:none}
+.tag{position:absolute;top:-12px;right:12px;background:var(--pink);color:#fff;border:2px solid #fff;padding:3px 10px;font-size:.7rem;font-weight:900;text-transform:uppercase}
+.card h3{font-size:1.08rem;margin:6px 0 8px;line-height:1.25}
+.card p{color:var(--muted);font-size:.86rem;line-height:1.45;margin-bottom:18px}
+.c-foot{border-top:2px dashed #3f3f46;padding-top:14px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.price{font-family:'Unbounded',sans-serif;font-size:1.1rem;color:var(--lime)}
+.price small{font-family:'Montserrat',sans-serif;font-size:.74rem;color:var(--muted);display:block;margin-top:2px;font-weight:600}
+.add-btn{background:#fff;color:#000;font-weight:900;padding:9px 14px;font-size:.78rem;border:2px solid #000;cursor:pointer;text-transform:uppercase;transition:.15s}
+.add-btn:hover{background:var(--lime);transform:scale(1.04)}
+.perks{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-bottom:50px}
+.perk{background:#000;border:2px solid var(--cyan);padding:20px;box-shadow:5px 5px 0 var(--cyan)}
+.perk strong{display:block;font-family:'Unbounded',sans-serif;color:var(--lime);font-size:.9rem;margin-bottom:6px}
+.perk span{font-size:.86rem;color:var(--muted)}
+footer{background:#000;border-top:var(--border);padding:45px 16px;text-align:center}
+.f-btns{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:22px}
+.btn-mega{display:inline-block;background:var(--lime);color:#000;font-family:'Unbounded',sans-serif;font-weight:900;font-size:.88rem;padding:16px 24px;text-decoration:none;border:var(--border);box-shadow:6px 6px 0 var(--pink);cursor:pointer;transition:.15s}
+.btn-mega:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--cyan)}
+.bar{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);width:94%;max-width:660px;background:var(--lime);color:#000;border:3px solid #000;box-shadow:6px 6px 0 var(--pink);padding:12px 18px;display:none;justify-content:space-between;align-items:center;z-index:999}
+.bar.show{display:flex}
+.b-btn{background:#000;color:#fff;font-family:'Unbounded',sans-serif;font-size:.75rem;padding:10px 14px;border:none;cursor:pointer}
+</style>
+</head>
+<body>
+
+<div class="ticker"><div class="ticker-track">⚡ КОВБАСИ ВІД СОЛОХИ • КРАФТОВИЙ ДРОП • ВИТРИМКА 28 ДНІВ • МОЖНА ПО ПІВ КІЛЬЦЯ • VIBER 095 327 58 81 • ⚡ КОВБАСИ ВІД СОЛОХИ • КРАФТОВИЙ ДРОП • ВИТРИМКА 28 ДНІВ • МОЖНА ПО ПІВ КІЛЬЦЯ • VIBER 095 327 58 81 •</div></div>
+
+<header class="wrap">
+<div class="top-stickers">
+<div class="stk stk-pink">🔥 TIKTOK VIRAL CRAFT</div>
+<div class="stk stk-cyan">🇺🇦 КИЇВЩИНА • РУЧНА РОБОТА</div>
+</div>
+<div class="brand-box">
+<h1>КОВБАСИ ВІД <span>СОЛОХИ</span></h1>
+</div>
+<div class="sub-line">М'ЯСНИЙ АСОРТИМЕНТ ТА ЦІНИ</div>
+<p>Забудь про нудну нарізку з маркету. Чесне сиров'ялене та сирокопчене м'ясо від Каріни: максимум начинки та 28 днів витримки.</p>
+<div class="ring-pill">⚖️ 1 кільце ковбаси ≈ 250–350 грам</div>
+</header>
+
+<main class="wrap">
+<div class="sec-head">
+<h2>👩‍🍳 Каріна та свіжий дроп</h2>
+<span>LIVE З КАМЕРИ</span>
+</div>
+<div class="creator-grid">
+<div class="p-card"><div class="p-slot" id="p1"><img src="photo1.jpg" alt="Каріна" onerror="this.style.display='none'"><span style="font-size:2.3rem">🌭</span><small style="color:var(--muted);margin-top:6px">Фото господарки з в'язкою</small><label class="up-btn">+ Завантажити фото 1<input type="file" accept="image/*" style="display:none" onchange="up(this,'p1')"></label></div><div class="p-foot"><span>Свіжа партія</span><span style="color:var(--lime)">28 ДНІВ</span></div></div>
+<div class="p-card"><div class="p-slot" id="p2"><img src="photo2.jpg" alt="Розріз" onerror="this.style.display='none'"><span style="font-size:2.3rem">🍒</span><small style="color:var(--muted);margin-top:6px">Фото ковбаси у розрізі</small><label class="up-btn">+ Завантажити фото 2<input type="file" accept="image/*" style="display:none" onchange="up(this,'p2')"></label></div><div class="p-foot"><span>Вишня • Фісташка • Журавлина</span><span style="color:var(--cyan)">ТОП</span></div></div>
+<div class="p-card"><div class="p-slot" id="p3"><img src="photo3.jpg" alt="Посилки" onerror="this.style.display='none'"><span style="font-size:2.3rem">📦</span><small style="color:var(--muted);margin-top:6px">Фото готових боксів</small><label class="up-btn">+ Завантажити фото 3<input type="file" accept="image/*" style="display:none" onchange="up(this,'p3')"></label></div><div class="p-foot"><span>Відправка по Україні</span><span style="color:var(--pink)">DROP</span></div></div>
+</div>
+
+<div class="tabs">
+<button class="tab active" onclick="flt('all',this)">🔥 Усі дропи (16)</button>
+<button class="tab" onclick="flt('sv',this)">🥩 Сиров'ялена (10)</button>
+<button class="tab" onclick="flt('sk',this)">💨 Сирокопчена (3)</button>
+<button class="tab" onclick="flt('mush',this)">🍄 Гриби (3)</button>
+</div>
+
+<div class="grid" id="catalog"></div>
+
+<div class="perks">
+<div class="perk"><strong>🔪 МІКС ПО ПІВ КІЛЬЦЯ</strong><span>Не можеш обрати один смак? Наріжемо по половинці різних видів на пробу.</span></div>
+<div class="perk"><strong>💳 ЧЕСНА ПЕРЕДПЛАТА</strong><span>Відправляємо свіжі посилки з Вишгородського району (Київська обл.).</span></div>
+<div class="perk"><strong>⏳ 23–28 ДНІВ ЧИЛУ</strong><span>Жодної хімії та прискорювачів — тільки м'ясо, спеції та правильна температура.</span></div>
+</div>
+</main>
+
